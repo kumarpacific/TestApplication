@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class ChildApp extends ParentApp {
 
 	ChildApp(int x) {
