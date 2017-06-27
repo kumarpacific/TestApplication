@@ -1,4 +1,4 @@
-package Programs;
+package thisKey;
 
 public class ThisKeyword {
 int a;

@@ -1,4 +1,4 @@
-package Algos;
+package algos;
 
 public class InsertionSort {
 

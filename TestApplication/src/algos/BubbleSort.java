@@ -1,4 +1,4 @@
-package Algos;
+package algos;
 
 import java.util.Random;
 

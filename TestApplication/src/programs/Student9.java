@@ -1,6 +1,6 @@
-package Programs;
+package programs;
 
-import Programs.Student8.Student7.Student6;
+import programs.Student8.Student7.Student6;
 
 class Student9 {
 	public static void main(String args[]) {
@@ -20,9 +20,7 @@ class Student8 {
 			void run1() {
 				int a = 1, b = 2;
 				System.out.println("Student8.Student7.Student6.run1()");
-				if (a > b && a == b) {
-
-				}
+				
 			}
 		}
 
