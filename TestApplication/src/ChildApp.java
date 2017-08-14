@@ -1,4 +1,4 @@
-import java.util.*;
+import programs.Derived.show;
 public class ChildApp extends ParentApp {
 
 	ChildApp(int x) {
@@ -7,12 +7,13 @@ public class ChildApp extends ParentApp {
 
 	public static void main(String[] args) {
 		
-		ParentApp pa = new ChildApp(98);
-		ParentApp pb = new ChildApp(45);
-		ParentApp pc = new ChildApp(85);
-		pa.display();
+		 new ChildApp(98);
+		new ChildApp(45);
+		 new ChildApp(85);
+		/*pa.display();
 		pb.display();
-		pc.display();
+		pc.display();*/
+		
 		System.out.println("Child App");
 		System.out.println("First Branch");
 
