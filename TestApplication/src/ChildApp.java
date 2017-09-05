@@ -1,4 +1,4 @@
-import programs.Derived.show;
+
 public class ChildApp extends ParentApp {
 
 	ChildApp(int x) {

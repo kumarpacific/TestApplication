@@ -1,7 +1,15 @@
 package algos;
-
+/**
+ * Program For InsertionSort
+ * 
+ * @author prashant.kumar.p
+ *
+ */
 public class InsertionSort {
-
+	
+  public void status(){
+	  System.out.println("Status");
+  }
 	public static void main(String[] args) {
 		int arr[] = { 45, 12, 36, 94, 20, 11, 85, 24 };
 		int temp, small, j;

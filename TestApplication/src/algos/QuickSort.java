@@ -1,11 +1,18 @@
 package algos;
 
-
+/**
+ * Program for QuickSort
+ * 
+ * @author prashant.kumar.p
+ *
+ */
 public class QuickSort {
 
 	public static void main(String[] args) {
 		    int arr[] = {10, 7, 8, 9, 1, 5};
 	        int n = arr.length;
+	        InsertionSort in = new InsertionSort();
+	        
 
 	        QuickSort ob = new QuickSort();
 	        ob.quickSort(arr, 0, n-1);
@@ -19,7 +26,7 @@ public class QuickSort {
         int n = arr.length;
         for (int i=0; i<n; ++i)
             System.out.print(arr[i]+" ");
-        System.out.println();
+            System.out.println();
     }
 	
 	
