@@ -30,6 +30,7 @@ public class GenericsExample {
 	 li.add(new Circle());
 	 List<Shape> lii=new ArrayList<>();
 	 lii.add(new Rectangle());
+	 lii.add(new Circle());
 	 
 	 displayShape(li);
 	 displayShape(lii);
