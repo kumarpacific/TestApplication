@@ -26,11 +26,12 @@ public class HashEntry {
 			}
 			
 		});
+		al.forEach(a -> System.out.println(a.getKey().toUpperCase()+" :: "+a.getValue()));
 		
-		for (Entry<String, String> entry:al){
+		/*for (Entry<String, String> entry:al){
 			
 			System.out.println(entry.getKey()+" : "+entry.getValue());
-		}
+		}*/
 	}
 
 }
